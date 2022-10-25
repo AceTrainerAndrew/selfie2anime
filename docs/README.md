@@ -19,5 +19,5 @@ echo "http://$(curl ifconfig.io):5000" && docker run -p 5000:5000 -d REPO_NAME
 
 Calling the API
 ```console
-curl -X POST "http://MY_SUPER_API_IP:5000/process" -H "accept: image/jpg" -H "Content-Type: application/json" -d '{"url":"https://img.chefdentreprise.com/Img/BREVE/2017/10/321988/Octave-Klaba-OVH-elu-entrepreneur-annee--LE.jpg"}' --output anime_selfie.jpg
+curl -X POST "http://MY_SUPER_API_IP:5000/process" -H "accept: image/jpg" -H "Content-Type: application/json" -d '{"url":"https://ibb.co/74ww5x7}' --output anime_selfie.jpg
 ```
